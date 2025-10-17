@@ -1,5 +1,3 @@
-import PropTypes from "prop-types";
-
 // ===== Material UI ===== //
 import {
   ToggleButton as MuiToggleButton,
@@ -57,13 +55,3 @@ function ToggleButton({ unit, value }: { unit: string; value: string }) {
     </MuiToggleButton>
   );
 }
-
-ToggleButton.propTypes = {
-  unit: PropTypes.string.isRequired,
-  value: PropTypes.string.isRequired,
-};
-
-UnitToggle.propTypes = {
-  unit: PropTypes.string.isRequired,
-  handleSetUnit: PropTypes.func.isRequired,
-};

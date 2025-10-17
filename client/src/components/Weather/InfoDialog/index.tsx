@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 // ===== Material UI ===== //
 import {
@@ -152,8 +151,3 @@ export default function InfoDialog({
     </Dialog>
   );
 }
-
-InfoDialog.propTypes = {
-  open: PropTypes.bool.isRequired,
-  handleClose: PropTypes.func.isRequired,
-};
